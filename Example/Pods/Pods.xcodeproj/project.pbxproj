@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123141B5A7B2D5DBD51C33A714FE95BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4AEABB9AB9A6C4947B788FB17EF9FB01 /* PHTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D88A12D13A41AE4176F821AE43BBEC /* PHTestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6034B7AB871E3338AA562C25D0D462A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		709E87EDCEB2CB32D6E4E7523672D6CA /* Pods-PHTwoRemoteTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 444231CF7AB5448C6D3B72DD7DCCAC42 /* Pods-PHTwoRemoteTest_Example-dummy.m */; };
+		799D53192E6073DE84A6BD0E7D0704E3 /* PHTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA6EB6E22DC4963357BADDD49476D8F /* PHTestLog.m */; };
+		84AD72C0F69C3CBEF67B0CC4AC631A77 /* PHTwoRemoteTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D293FFE0F7DDAE30BE190663FB5BD /* PHTwoRemoteTest-dummy.m */; };
+		92F739EEAB0DEE55EE2181EBF816524B /* Pods-PHTwoRemoteTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664B0B971352C53534673E648E42F0B3 /* Pods-PHTwoRemoteTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDD16F113A31ADF752BE6BA271382023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECA342F2D4A2F93A333CF0FDC03E4018 /* PHTwoRemoteTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 532BD140D9F14CAA67DD99AFED8004C5 /* PHTwoRemoteTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC6D488C144AB53363D216F2E614BE5 /* Pods-PHTwoRemoteTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C8D445075A1C4BD3B89E932E6EFBF /* Pods-PHTwoRemoteTest_Tests-dummy.m */; };
+		EDD3A361970642EAE2963ED9AEEC672F /* Pods-PHTwoRemoteTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F98B61AA6E9DFC7EE2900EBF7BE7FD2 /* Pods-PHTwoRemoteTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17970B914178BCD7403A14C4BE5FCB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133460C420F7BECF61BE6E5EC74642A5;
+			remoteInfo = PHTwoRemoteTest;
+		};
+		AF76E4CD530CD7E930D437D695DE2660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2252B1087DCAF7130DB412100DC88EB;
+			remoteInfo = "Pods-PHTwoRemoteTest_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133D78AB454CD47F71F094B07E07292A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1436CEFE9D835A46286B4C6C9A8C864B /* Pods_PHTwoRemoteTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHTwoRemoteTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BEEB67292116366522B3F5270D83C9 /* PHTwoRemoteTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PHTwoRemoteTest-Info.plist"; sourceTree = "<group>"; };
+		21365EF1DF6E1EBA75ADFC846337F18A /* Pods-PHTwoRemoteTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHTwoRemoteTest_Example-Info.plist"; sourceTree = "<group>"; };
+		2B8A418A6BCC4D31D0CF5C4D36FA2B50 /* Pods-PHTwoRemoteTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHTwoRemoteTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FCB8E0FF083F30F3ED8FF36B1ACF6D7 /* PHTwoRemoteTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PHTwoRemoteTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		444231CF7AB5448C6D3B72DD7DCCAC42 /* Pods-PHTwoRemoteTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PHTwoRemoteTest_Example-dummy.m"; sourceTree = "<group>"; };
+		532BD140D9F14CAA67DD99AFED8004C5 /* PHTwoRemoteTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHTwoRemoteTest-umbrella.h"; sourceTree = "<group>"; };
+		6131257286B4AB03CA20F333E79D7BEF /* Pods-PHTwoRemoteTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PHTwoRemoteTest_Example.modulemap"; sourceTree = "<group>"; };
+		61653328C206B83FCA30CC0DA5429E54 /* Pods-PHTwoRemoteTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHTwoRemoteTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		622D293FFE0F7DDAE30BE190663FB5BD /* PHTwoRemoteTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHTwoRemoteTest-dummy.m"; sourceTree = "<group>"; };
+		62EF276912CC9C87BCE54CAC35AE74DF /* PHTwoRemoteTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PHTwoRemoteTest.release.xcconfig; sourceTree = "<group>"; };
+		664B0B971352C53534673E648E42F0B3 /* Pods-PHTwoRemoteTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PHTwoRemoteTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		696CEB3717452E85ECD49D2A770BAAE6 /* Pods_PHTwoRemoteTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHTwoRemoteTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F821FF1170A514D0E55692077837BB3 /* Pods-PHTwoRemoteTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PHTwoRemoteTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7A52F70BDB62E88A5E0E034BBAD794FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84A8A80BF7DC07B75EA4426681A3CE57 /* Pods-PHTwoRemoteTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PHTwoRemoteTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D2756E239BC03B0D55658550A8A6759 /* Pods-PHTwoRemoteTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PHTwoRemoteTest_Tests.modulemap"; sourceTree = "<group>"; };
+		8F98B61AA6E9DFC7EE2900EBF7BE7FD2 /* Pods-PHTwoRemoteTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PHTwoRemoteTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F393D02181138BEAF91BDBC302D5F53 /* PHTwoRemoteTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PHTwoRemoteTest.modulemap; sourceTree = "<group>"; };
+		A1B295EE856912FE935515E1E9199D83 /* Pods-PHTwoRemoteTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHTwoRemoteTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA96451E8123162C7FA1FBE08D3729EA /* PHTwoRemoteTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHTwoRemoteTest-prefix.pch"; sourceTree = "<group>"; };
+		BD5C8D445075A1C4BD3B89E932E6EFBF /* Pods-PHTwoRemoteTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PHTwoRemoteTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		C784CAED845DA6D1543DCC6390213DDA /* Pods-PHTwoRemoteTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHTwoRemoteTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D78CC77145046F8BEA2CBBF2D0969BB8 /* PHTwoRemoteTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PHTwoRemoteTest.debug.xcconfig; sourceTree = "<group>"; };
+		D7999E26C59B0747B366ECD32A2F9442 /* Pods-PHTwoRemoteTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHTwoRemoteTest_Tests-Info.plist"; sourceTree = "<group>"; };
+		DCA6EB6E22DC4963357BADDD49476D8F /* PHTestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHTestLog.m; path = PHTwoRemoteTest/Classes/PHTestLog.m; sourceTree = "<group>"; };
+		E0B11F20F623526236D1B607141DD58C /* Pods-PHTwoRemoteTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHTwoRemoteTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D88A12D13A41AE4176F821AE43BBEC /* PHTestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHTestLog.h; path = PHTwoRemoteTest/Classes/PHTestLog.h; sourceTree = "<group>"; };
+		E99A610D71FA902C88F0EE22A8057B6F /* PHTwoRemoteTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PHTwoRemoteTest.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		FE5C5AF1F412BB3B6A71D45DAAE765B5 /* Pods-PHTwoRemoteTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PHTwoRemoteTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFAC1EA83AEAA0C2B483466ACE786E1F /* Pods-PHTwoRemoteTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHTwoRemoteTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79976DE9C9FD8517D264DA34501EE58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD16F113A31ADF752BE6BA271382023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B8D047F8B586CCC243529799438496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123141B5A7B2D5DBD51C33A714FE95BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE61F84B1094EE96AFC7EE1BAD6CF1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6034B7AB871E3338AA562C25D0D462A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034BB44AF84649CC58854D33C27FBD6D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A52F70BDB62E88A5E0E034BBAD794FC /* LICENSE */,
+				E99A610D71FA902C88F0EE22A8057B6F /* PHTwoRemoteTest.podspec */,
+				133D78AB454CD47F71F094B07E07292A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1834018AB05DB696D59D6877EE5582D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				258D22BDF6BC23F940CCB0EC5375A1BA /* Pods-PHTwoRemoteTest_Example */,
+				B846BDB5BD4C20134A61B8C2EC4D1A53 /* Pods-PHTwoRemoteTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C7DC324FD9CF7BF7A0D13BDF2DF5AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB8E0FF083F30F3ED8FF36B1ACF6D7 /* PHTwoRemoteTest.framework */,
+				696CEB3717452E85ECD49D2A770BAAE6 /* Pods_PHTwoRemoteTest_Example.framework */,
+				1436CEFE9D835A46286B4C6C9A8C864B /* Pods_PHTwoRemoteTest_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		258D22BDF6BC23F940CCB0EC5375A1BA /* Pods-PHTwoRemoteTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6131257286B4AB03CA20F333E79D7BEF /* Pods-PHTwoRemoteTest_Example.modulemap */,
+				FE5C5AF1F412BB3B6A71D45DAAE765B5 /* Pods-PHTwoRemoteTest_Example-acknowledgements.markdown */,
+				FFAC1EA83AEAA0C2B483466ACE786E1F /* Pods-PHTwoRemoteTest_Example-acknowledgements.plist */,
+				444231CF7AB5448C6D3B72DD7DCCAC42 /* Pods-PHTwoRemoteTest_Example-dummy.m */,
+				6F821FF1170A514D0E55692077837BB3 /* Pods-PHTwoRemoteTest_Example-frameworks.sh */,
+				21365EF1DF6E1EBA75ADFC846337F18A /* Pods-PHTwoRemoteTest_Example-Info.plist */,
+				664B0B971352C53534673E648E42F0B3 /* Pods-PHTwoRemoteTest_Example-umbrella.h */,
+				A1B295EE856912FE935515E1E9199D83 /* Pods-PHTwoRemoteTest_Example.debug.xcconfig */,
+				2B8A418A6BCC4D31D0CF5C4D36FA2B50 /* Pods-PHTwoRemoteTest_Example.release.xcconfig */,
+			);
+			name = "Pods-PHTwoRemoteTest_Example";
+			path = "Target Support Files/Pods-PHTwoRemoteTest_Example";
+			sourceTree = "<group>";
+		};
+		27D8DD64BD5C8ABB565675D0D2B644CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F393D02181138BEAF91BDBC302D5F53 /* PHTwoRemoteTest.modulemap */,
+				622D293FFE0F7DDAE30BE190663FB5BD /* PHTwoRemoteTest-dummy.m */,
+				19BEEB67292116366522B3F5270D83C9 /* PHTwoRemoteTest-Info.plist */,
+				BA96451E8123162C7FA1FBE08D3729EA /* PHTwoRemoteTest-prefix.pch */,
+				532BD140D9F14CAA67DD99AFED8004C5 /* PHTwoRemoteTest-umbrella.h */,
+				D78CC77145046F8BEA2CBBF2D0969BB8 /* PHTwoRemoteTest.debug.xcconfig */,
+				62EF276912CC9C87BCE54CAC35AE74DF /* PHTwoRemoteTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PHTwoRemoteTest";
+			sourceTree = "<group>";
+		};
+		587FC119FFCCC658243065EFB0F6E04E /* PHTwoRemoteTest */ = {
+			isa = PBXGroup;
+			children = (
+				E2D88A12D13A41AE4176F821AE43BBEC /* PHTestLog.h */,
+				DCA6EB6E22DC4963357BADDD49476D8F /* PHTestLog.m */,
+				034BB44AF84649CC58854D33C27FBD6D /* Pod */,
+				27D8DD64BD5C8ABB565675D0D2B644CC /* Support Files */,
+			);
+			name = PHTwoRemoteTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9BED62821FF627A95B92EAB9FAF8D565 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587FC119FFCCC658243065EFB0F6E04E /* PHTwoRemoteTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B846BDB5BD4C20134A61B8C2EC4D1A53 /* Pods-PHTwoRemoteTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D2756E239BC03B0D55658550A8A6759 /* Pods-PHTwoRemoteTest_Tests.modulemap */,
+				84A8A80BF7DC07B75EA4426681A3CE57 /* Pods-PHTwoRemoteTest_Tests-acknowledgements.markdown */,
+				C784CAED845DA6D1543DCC6390213DDA /* Pods-PHTwoRemoteTest_Tests-acknowledgements.plist */,
+				BD5C8D445075A1C4BD3B89E932E6EFBF /* Pods-PHTwoRemoteTest_Tests-dummy.m */,
+				D7999E26C59B0747B366ECD32A2F9442 /* Pods-PHTwoRemoteTest_Tests-Info.plist */,
+				8F98B61AA6E9DFC7EE2900EBF7BE7FD2 /* Pods-PHTwoRemoteTest_Tests-umbrella.h */,
+				E0B11F20F623526236D1B607141DD58C /* Pods-PHTwoRemoteTest_Tests.debug.xcconfig */,
+				61653328C206B83FCA30CC0DA5429E54 /* Pods-PHTwoRemoteTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-PHTwoRemoteTest_Tests";
+			path = "Target Support Files/Pods-PHTwoRemoteTest_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9BED62821FF627A95B92EAB9FAF8D565 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1C7DC324FD9CF7BF7A0D13BDF2DF5AC5 /* Products */,
+				1834018AB05DB696D59D6877EE5582D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		255B0DBE99FC523757B9FCC90F40630B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD3A361970642EAE2963ED9AEEC672F /* Pods-PHTwoRemoteTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04ED1A413F3C19D9828D35544744E2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEABB9AB9A6C4947B788FB17EF9FB01 /* PHTestLog.h in Headers */,
+				ECA342F2D4A2F93A333CF0FDC03E4018 /* PHTwoRemoteTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6C34A30797AC4C0481832F5CF46260 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F739EEAB0DEE55EE2181EBF816524B /* Pods-PHTwoRemoteTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		133460C420F7BECF61BE6E5EC74642A5 /* PHTwoRemoteTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26F9DD5CBE0758F240D1CBAA5F1511D /* Build configuration list for PBXNativeTarget "PHTwoRemoteTest" */;
+			buildPhases = (
+				A04ED1A413F3C19D9828D35544744E2E /* Headers */,
+				0CBACEF43D7894C1EEAEDFAABD83AC78 /* Sources */,
+				E9B8D047F8B586CCC243529799438496 /* Frameworks */,
+				49055A325A8FD2C7AC5ECBA9C896479B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHTwoRemoteTest;
+			productName = PHTwoRemoteTest;
+			productReference = 3FCB8E0FF083F30F3ED8FF36B1ACF6D7 /* PHTwoRemoteTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2252B1087DCAF7130DB412100DC88EB /* Pods-PHTwoRemoteTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBA2FB511148D5B76F9E1109B342A86 /* Build configuration list for PBXNativeTarget "Pods-PHTwoRemoteTest_Example" */;
+			buildPhases = (
+				ED6C34A30797AC4C0481832F5CF46260 /* Headers */,
+				96CBDFF6E57194734C49ADD36BC244F5 /* Sources */,
+				79976DE9C9FD8517D264DA34501EE58E /* Frameworks */,
+				516FE2056815BA25C0BA3A54175E5F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C9C9293BB9E6E6896EDA45DE993B1A /* PBXTargetDependency */,
+			);
+			name = "Pods-PHTwoRemoteTest_Example";
+			productName = "Pods-PHTwoRemoteTest_Example";
+			productReference = 696CEB3717452E85ECD49D2A770BAAE6 /* Pods_PHTwoRemoteTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0B46343A1B1D40615A48AEE5916BD2C /* Pods-PHTwoRemoteTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705EDBC2D285A9D24E0FF84EE9450E00 /* Build configuration list for PBXNativeTarget "Pods-PHTwoRemoteTest_Tests" */;
+			buildPhases = (
+				255B0DBE99FC523757B9FCC90F40630B /* Headers */,
+				22861EC0F5BFFAFB4501D98E6BD036C8 /* Sources */,
+				EE61F84B1094EE96AFC7EE1BAD6CF1F8 /* Frameworks */,
+				B0127E272017213CA1ABE016B2687509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55A66474AB710E3D579D8B2C99EF790 /* PBXTargetDependency */,
+			);
+			name = "Pods-PHTwoRemoteTest_Tests";
+			productName = "Pods-PHTwoRemoteTest_Tests";
+			productReference = 1436CEFE9D835A46286B4C6C9A8C864B /* Pods_PHTwoRemoteTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1C7DC324FD9CF7BF7A0D13BDF2DF5AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133460C420F7BECF61BE6E5EC74642A5 /* PHTwoRemoteTest */,
+				A2252B1087DCAF7130DB412100DC88EB /* Pods-PHTwoRemoteTest_Example */,
+				D0B46343A1B1D40615A48AEE5916BD2C /* Pods-PHTwoRemoteTest_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49055A325A8FD2C7AC5ECBA9C896479B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516FE2056815BA25C0BA3A54175E5F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0127E272017213CA1ABE016B2687509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CBACEF43D7894C1EEAEDFAABD83AC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799D53192E6073DE84A6BD0E7D0704E3 /* PHTestLog.m in Sources */,
+				84AD72C0F69C3CBEF67B0CC4AC631A77 /* PHTwoRemoteTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22861EC0F5BFFAFB4501D98E6BD036C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6D488C144AB53363D216F2E614BE5 /* Pods-PHTwoRemoteTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CBDFF6E57194734C49ADD36BC244F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709E87EDCEB2CB32D6E4E7523672D6CA /* Pods-PHTwoRemoteTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C9C9293BB9E6E6896EDA45DE993B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PHTwoRemoteTest;
+			target = 133460C420F7BECF61BE6E5EC74642A5 /* PHTwoRemoteTest */;
+			targetProxy = 17970B914178BCD7403A14C4BE5FCB8E /* PBXContainerItemProxy */;
+		};
+		C55A66474AB710E3D579D8B2C99EF790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PHTwoRemoteTest_Example";
+			target = A2252B1087DCAF7130DB412100DC88EB /* Pods-PHTwoRemoteTest_Example */;
+			targetProxy = AF76E4CD530CD7E930D437D695DE2660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5433560BDEEE2EBEB737C98BD5B8FF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EF276912CC9C87BCE54CAC35AE74DF /* PHTwoRemoteTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PHTwoRemoteTest/PHTwoRemoteTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PHTwoRemoteTest/PHTwoRemoteTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PHTwoRemoteTest/PHTwoRemoteTest.modulemap";
+				PRODUCT_MODULE_NAME = PHTwoRemoteTest;
+				PRODUCT_NAME = PHTwoRemoteTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AC2767449809352FEF397B2FC012B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8A418A6BCC4D31D0CF5C4D36FA2B50 /* Pods-PHTwoRemoteTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Example/Pods-PHTwoRemoteTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Example/Pods-PHTwoRemoteTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C6F8286FE2D5D004784C34DA77AA162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B295EE856912FE935515E1E9199D83 /* Pods-PHTwoRemoteTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Example/Pods-PHTwoRemoteTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Example/Pods-PHTwoRemoteTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90E7AA847468D0127D9681551D47EEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78CC77145046F8BEA2CBBF2D0969BB8 /* PHTwoRemoteTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PHTwoRemoteTest/PHTwoRemoteTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PHTwoRemoteTest/PHTwoRemoteTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PHTwoRemoteTest/PHTwoRemoteTest.modulemap";
+				PRODUCT_MODULE_NAME = PHTwoRemoteTest;
+				PRODUCT_NAME = PHTwoRemoteTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99B9D349708542D631D3FE2D9C99C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61653328C206B83FCA30CC0DA5429E54 /* Pods-PHTwoRemoteTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Tests/Pods-PHTwoRemoteTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Tests/Pods-PHTwoRemoteTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4C7D0FD22C8E9C6E7E13030A6C538E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B11F20F623526236D1B607141DD58C /* Pods-PHTwoRemoteTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Tests/Pods-PHTwoRemoteTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PHTwoRemoteTest_Tests/Pods-PHTwoRemoteTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705EDBC2D285A9D24E0FF84EE9450E00 /* Build configuration list for PBXNativeTarget "Pods-PHTwoRemoteTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C7D0FD22C8E9C6E7E13030A6C538E6 /* Debug */,
+				99B9D349708542D631D3FE2D9C99C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBA2FB511148D5B76F9E1109B342A86 /* Build configuration list for PBXNativeTarget "Pods-PHTwoRemoteTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6F8286FE2D5D004784C34DA77AA162 /* Debug */,
+				8AC2767449809352FEF397B2FC012B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26F9DD5CBE0758F240D1CBAA5F1511D /* Build configuration list for PBXNativeTarget "PHTwoRemoteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E7AA847468D0127D9681551D47EEA1 /* Debug */,
+				5433560BDEEE2EBEB737C98BD5B8FF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

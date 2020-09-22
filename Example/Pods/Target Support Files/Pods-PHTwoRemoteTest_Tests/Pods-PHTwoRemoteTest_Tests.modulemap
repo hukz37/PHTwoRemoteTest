@@ -1,0 +1,6 @@
+framework module Pods_PHTwoRemoteTest_Tests {
+  umbrella header "Pods-PHTwoRemoteTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

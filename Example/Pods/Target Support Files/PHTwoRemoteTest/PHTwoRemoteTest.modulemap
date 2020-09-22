@@ -1,0 +1,6 @@
+framework module PHTwoRemoteTest {
+  umbrella header "PHTwoRemoteTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

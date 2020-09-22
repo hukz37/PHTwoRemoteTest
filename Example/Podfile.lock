@@ -1,0 +1,16 @@
+PODS:
+  - PHTwoRemoteTest (0.1.0)
+
+DEPENDENCIES:
+  - PHTwoRemoteTest (from `../`)
+
+EXTERNAL SOURCES:
+  PHTwoRemoteTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PHTwoRemoteTest: 1d89ee650071bc0cfe76bbc8e263c3cfc239f7c2
+
+PODFILE CHECKSUM: 996db30c5821e75c973782b9373c430e64570600
+
+COCOAPODS: 1.9.3
