@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PHTwoRemoteTest_Example' do
+  pod 'PHTwoRemoteTest', :path => '../'
+
+  target 'PHTwoRemoteTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
